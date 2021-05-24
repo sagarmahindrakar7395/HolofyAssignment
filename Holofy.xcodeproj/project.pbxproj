@@ -1,0 +1,903 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5125B7174D05545B813AC6E3 /* Pods_HolofyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362A72B8FFF36492BD3BE747 /* Pods_HolofyTests.framework */; };
+		8A4706E32653D4DE00D88C9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4706E22653D4DE00D88C9E /* AppDelegate.swift */; };
+		8A4706E52653D4DE00D88C9E /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4706E42653D4DE00D88C9E /* RootViewController.swift */; };
+		8A4706EA2653D4DE00D88C9E /* Holofy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A4706E82653D4DE00D88C9E /* Holofy.xcdatamodeld */; };
+		8A4706EC2653D4DF00D88C9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A4706EB2653D4DF00D88C9E /* Assets.xcassets */; };
+		8A4706EF2653D4DF00D88C9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A4706ED2653D4DF00D88C9E /* LaunchScreen.storyboard */; };
+		8A4706FA2653D4DF00D88C9E /* HolofyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4706F92653D4DF00D88C9E /* HolofyTests.swift */; };
+		8A4707052653D4DF00D88C9E /* HolofyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4707042653D4DF00D88C9E /* HolofyUITests.swift */; };
+		8A47071D2653D63F00D88C9E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A47071A2653D63F00D88C9E /* Constants.swift */; };
+		8A47071E2653D63F00D88C9E /* CommonDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A47071B2653D63F00D88C9E /* CommonDesign.swift */; };
+		8A47071F2653D63F00D88C9E /* AppNavigationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A47071C2653D63F00D88C9E /* AppNavigationHandler.swift */; };
+		8A47072A2653D64A00D88C9E /* MapProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4707242653D64A00D88C9E /* MapProtocols.swift */; };
+		8A47072B2653D64A00D88C9E /* MapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4707252653D64A00D88C9E /* MapRouter.swift */; };
+		8A47072C2653D64A00D88C9E /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4707262653D64A00D88C9E /* MapPresenter.swift */; };
+		8A47072D2653D64A00D88C9E /* MapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4707272653D64A00D88C9E /* MapInteractor.swift */; };
+		8A47072E2653D64A00D88C9E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4707282653D64A00D88C9E /* MapViewController.swift */; };
+		8A47072F2653D64A00D88C9E /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4707292653D64A00D88C9E /* MapViewController.xib */; };
+		8A47073E2653D65300D88C9E /* PioListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4707342653D65300D88C9E /* PioListViewController.swift */; };
+		8A47073F2653D65300D88C9E /* PioListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4707352653D65300D88C9E /* PioListViewController.xib */; };
+		8A4707402653D65300D88C9E /* PoListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4707372653D65300D88C9E /* PoListTableViewCell.swift */; };
+		8A4707412653D65300D88C9E /* PoListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4707382653D65300D88C9E /* PoListTableViewCell.xib */; };
+		8A4707422653D65300D88C9E /* PioListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4707392653D65300D88C9E /* PioListProtocols.swift */; };
+		8A4707432653D65300D88C9E /* PioListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A47073A2653D65300D88C9E /* PioListRouter.swift */; };
+		8A4707442653D65300D88C9E /* PioListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A47073B2653D65300D88C9E /* PioListPresenter.swift */; };
+		8A4707452653D65300D88C9E /* MapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A47073C2653D65300D88C9E /* MapModel.swift */; };
+		8A4707462653D65300D88C9E /* PioListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A47073D2653D65300D88C9E /* PioListInteractor.swift */; };
+		8A47074C2653D66000D88C9E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A47074B2653D66000D88C9E /* NetworkManager.swift */; };
+		8ABE907D265596AF009C1F77 /* assignment.json in Resources */ = {isa = PBXBuildFile; fileRef = 8ABE907C265596AF009C1F77 /* assignment.json */; };
+		8ABE9080265596C3009C1F77 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE907F265596C3009C1F77 /* Models.swift */; };
+		9AF2B8F3D3796D0148AB1089 /* Pods_Holofy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E0E6811F9A8CE080131A50 /* Pods_Holofy.framework */; };
+		C8FE35C949E07DE119A87908 /* Pods_Holofy_HolofyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA1C5F6ED540E9D643AA556 /* Pods_Holofy_HolofyUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A4706F62653D4DF00D88C9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A4706D72653D4DE00D88C9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A4706DE2653D4DE00D88C9E;
+			remoteInfo = Holofy;
+		};
+		8A4707012653D4DF00D88C9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A4706D72653D4DE00D88C9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A4706DE2653D4DE00D88C9E;
+			remoteInfo = Holofy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F48FE51A2D98E3E439EEC13 /* Pods-Holofy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Holofy.release.xcconfig"; path = "Target Support Files/Pods-Holofy/Pods-Holofy.release.xcconfig"; sourceTree = "<group>"; };
+		29707DA908CC744E74133B8A /* Pods-HolofyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HolofyTests.debug.xcconfig"; path = "Target Support Files/Pods-HolofyTests/Pods-HolofyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2EA1C5F6ED540E9D643AA556 /* Pods_Holofy_HolofyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Holofy_HolofyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		362A72B8FFF36492BD3BE747 /* Pods_HolofyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HolofyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6595076F5F14EBC1C8A3E0DB /* Pods-Holofy-HolofyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Holofy-HolofyUITests.release.xcconfig"; path = "Target Support Files/Pods-Holofy-HolofyUITests/Pods-Holofy-HolofyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7670E9976EC9124C8AF4F805 /* Pods-HolofyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HolofyTests.release.xcconfig"; path = "Target Support Files/Pods-HolofyTests/Pods-HolofyTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A4706DF2653D4DE00D88C9E /* Holofy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Holofy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A4706E22653D4DE00D88C9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A4706E42653D4DE00D88C9E /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		8A4706E92653D4DE00D88C9E /* Holofy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Holofy.xcdatamodel; sourceTree = "<group>"; };
+		8A4706EB2653D4DF00D88C9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A4706EE2653D4DF00D88C9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A4706F02653D4DF00D88C9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A4706F52653D4DF00D88C9E /* HolofyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolofyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A4706F92653D4DF00D88C9E /* HolofyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolofyTests.swift; sourceTree = "<group>"; };
+		8A4706FB2653D4DF00D88C9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A4707002653D4DF00D88C9E /* HolofyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolofyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A4707042653D4DF00D88C9E /* HolofyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolofyUITests.swift; sourceTree = "<group>"; };
+		8A4707062653D4DF00D88C9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A47071A2653D63F00D88C9E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8A47071B2653D63F00D88C9E /* CommonDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonDesign.swift; sourceTree = "<group>"; };
+		8A47071C2653D63F00D88C9E /* AppNavigationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNavigationHandler.swift; sourceTree = "<group>"; };
+		8A4707242653D64A00D88C9E /* MapProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapProtocols.swift; sourceTree = "<group>"; };
+		8A4707252653D64A00D88C9E /* MapRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapRouter.swift; sourceTree = "<group>"; };
+		8A4707262653D64A00D88C9E /* MapPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPresenter.swift; sourceTree = "<group>"; };
+		8A4707272653D64A00D88C9E /* MapInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapInteractor.swift; sourceTree = "<group>"; };
+		8A4707282653D64A00D88C9E /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		8A4707292653D64A00D88C9E /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		8A4707342653D65300D88C9E /* PioListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PioListViewController.swift; sourceTree = "<group>"; };
+		8A4707352653D65300D88C9E /* PioListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PioListViewController.xib; sourceTree = "<group>"; };
+		8A4707372653D65300D88C9E /* PoListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoListTableViewCell.swift; sourceTree = "<group>"; };
+		8A4707382653D65300D88C9E /* PoListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PoListTableViewCell.xib; sourceTree = "<group>"; };
+		8A4707392653D65300D88C9E /* PioListProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PioListProtocols.swift; sourceTree = "<group>"; };
+		8A47073A2653D65300D88C9E /* PioListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PioListRouter.swift; sourceTree = "<group>"; };
+		8A47073B2653D65300D88C9E /* PioListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PioListPresenter.swift; sourceTree = "<group>"; };
+		8A47073C2653D65300D88C9E /* MapModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapModel.swift; sourceTree = "<group>"; };
+		8A47073D2653D65300D88C9E /* PioListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PioListInteractor.swift; sourceTree = "<group>"; };
+		8A47074B2653D66000D88C9E /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8ABE907C265596AF009C1F77 /* assignment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = assignment.json; sourceTree = "<group>"; };
+		8ABE907F265596C3009C1F77 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		AB328DE824073398297BDB76 /* Pods-Holofy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Holofy.debug.xcconfig"; path = "Target Support Files/Pods-Holofy/Pods-Holofy.debug.xcconfig"; sourceTree = "<group>"; };
+		D6A99B6DA367DABA98E3DB12 /* Pods-Holofy-HolofyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Holofy-HolofyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Holofy-HolofyUITests/Pods-Holofy-HolofyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5E0E6811F9A8CE080131A50 /* Pods_Holofy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Holofy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A4706DC2653D4DE00D88C9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF2B8F3D3796D0148AB1089 /* Pods_Holofy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A4706F22653D4DF00D88C9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5125B7174D05545B813AC6E3 /* Pods_HolofyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A4706FD2653D4DF00D88C9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8FE35C949E07DE119A87908 /* Pods_Holofy_HolofyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		447BA94416CC12B5C9DC840A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5E0E6811F9A8CE080131A50 /* Pods_Holofy.framework */,
+				2EA1C5F6ED540E9D643AA556 /* Pods_Holofy_HolofyUITests.framework */,
+				362A72B8FFF36492BD3BE747 /* Pods_HolofyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A4706D62653D4DE00D88C9E = {
+			isa = PBXGroup;
+			children = (
+				8A4706E12653D4DE00D88C9E /* Holofy */,
+				8A4706F82653D4DF00D88C9E /* HolofyTests */,
+				8A4707032653D4DF00D88C9E /* HolofyUITests */,
+				8A4706E02653D4DE00D88C9E /* Products */,
+				93BEF77298E310BF63C15F4C /* Pods */,
+				447BA94416CC12B5C9DC840A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A4706E02653D4DE00D88C9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A4706DF2653D4DE00D88C9E /* Holofy.app */,
+				8A4706F52653D4DF00D88C9E /* HolofyTests.xctest */,
+				8A4707002653D4DF00D88C9E /* HolofyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A4706E12653D4DE00D88C9E /* Holofy */ = {
+			isa = PBXGroup;
+			children = (
+				8ABE907E265596C3009C1F77 /* Models */,
+				8ABE907B265596AF009C1F77 /* Resources */,
+				8A4707502653D68C00D88C9E /* Extra */,
+				8A47074A2653D66000D88C9E /* Network */,
+				8A4707332653D65300D88C9E /* PioList */,
+				8A4707232653D64A00D88C9E /* Map */,
+				8A4707192653D63F00D88C9E /* common */,
+				8A4707182653D5CA00D88C9E /* Onboarding */,
+				8A4706F02653D4DF00D88C9E /* Info.plist */,
+				8A4706E82653D4DE00D88C9E /* Holofy.xcdatamodeld */,
+			);
+			path = Holofy;
+			sourceTree = "<group>";
+		};
+		8A4706F82653D4DF00D88C9E /* HolofyTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A4706F92653D4DF00D88C9E /* HolofyTests.swift */,
+				8A4706FB2653D4DF00D88C9E /* Info.plist */,
+			);
+			path = HolofyTests;
+			sourceTree = "<group>";
+		};
+		8A4707032653D4DF00D88C9E /* HolofyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A4707042653D4DF00D88C9E /* HolofyUITests.swift */,
+				8A4707062653D4DF00D88C9E /* Info.plist */,
+			);
+			path = HolofyUITests;
+			sourceTree = "<group>";
+		};
+		8A4707182653D5CA00D88C9E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				8A4706E22653D4DE00D88C9E /* AppDelegate.swift */,
+				8A4706E42653D4DE00D88C9E /* RootViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		8A4707192653D63F00D88C9E /* common */ = {
+			isa = PBXGroup;
+			children = (
+				8A47071A2653D63F00D88C9E /* Constants.swift */,
+				8A47071B2653D63F00D88C9E /* CommonDesign.swift */,
+				8A47071C2653D63F00D88C9E /* AppNavigationHandler.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		8A4707232653D64A00D88C9E /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				8A4707242653D64A00D88C9E /* MapProtocols.swift */,
+				8A4707252653D64A00D88C9E /* MapRouter.swift */,
+				8A4707262653D64A00D88C9E /* MapPresenter.swift */,
+				8A4707272653D64A00D88C9E /* MapInteractor.swift */,
+				8A4707282653D64A00D88C9E /* MapViewController.swift */,
+				8A4707292653D64A00D88C9E /* MapViewController.xib */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		8A4707332653D65300D88C9E /* PioList */ = {
+			isa = PBXGroup;
+			children = (
+				8A4707342653D65300D88C9E /* PioListViewController.swift */,
+				8A4707352653D65300D88C9E /* PioListViewController.xib */,
+				8A4707362653D65300D88C9E /* cell */,
+				8A4707392653D65300D88C9E /* PioListProtocols.swift */,
+				8A47073A2653D65300D88C9E /* PioListRouter.swift */,
+				8A47073B2653D65300D88C9E /* PioListPresenter.swift */,
+				8A47073C2653D65300D88C9E /* MapModel.swift */,
+				8A47073D2653D65300D88C9E /* PioListInteractor.swift */,
+			);
+			path = PioList;
+			sourceTree = "<group>";
+		};
+		8A4707362653D65300D88C9E /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				8A4707372653D65300D88C9E /* PoListTableViewCell.swift */,
+				8A4707382653D65300D88C9E /* PoListTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		8A47074A2653D66000D88C9E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8A47074B2653D66000D88C9E /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8A4707502653D68C00D88C9E /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				8A4706EB2653D4DF00D88C9E /* Assets.xcassets */,
+				8A4706ED2653D4DF00D88C9E /* LaunchScreen.storyboard */,
+			);
+			path = Extra;
+			sourceTree = "<group>";
+		};
+		8ABE907B265596AF009C1F77 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8ABE907C265596AF009C1F77 /* assignment.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8ABE907E265596C3009C1F77 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8ABE907F265596C3009C1F77 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		93BEF77298E310BF63C15F4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB328DE824073398297BDB76 /* Pods-Holofy.debug.xcconfig */,
+				0F48FE51A2D98E3E439EEC13 /* Pods-Holofy.release.xcconfig */,
+				D6A99B6DA367DABA98E3DB12 /* Pods-Holofy-HolofyUITests.debug.xcconfig */,
+				6595076F5F14EBC1C8A3E0DB /* Pods-Holofy-HolofyUITests.release.xcconfig */,
+				29707DA908CC744E74133B8A /* Pods-HolofyTests.debug.xcconfig */,
+				7670E9976EC9124C8AF4F805 /* Pods-HolofyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A4706DE2653D4DE00D88C9E /* Holofy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A4707092653D4DF00D88C9E /* Build configuration list for PBXNativeTarget "Holofy" */;
+			buildPhases = (
+				761AD573D32E2FD6AC4BD14D /* [CP] Check Pods Manifest.lock */,
+				8A4706DB2653D4DE00D88C9E /* Sources */,
+				8A4706DC2653D4DE00D88C9E /* Frameworks */,
+				8A4706DD2653D4DE00D88C9E /* Resources */,
+				0AF9F98AF8D7BD46E639F8BE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Holofy;
+			productName = Holofy;
+			productReference = 8A4706DF2653D4DE00D88C9E /* Holofy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A4706F42653D4DF00D88C9E /* HolofyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A47070C2653D4DF00D88C9E /* Build configuration list for PBXNativeTarget "HolofyTests" */;
+			buildPhases = (
+				F50189C2BEB5848243FC405B /* [CP] Check Pods Manifest.lock */,
+				8A4706F12653D4DF00D88C9E /* Sources */,
+				8A4706F22653D4DF00D88C9E /* Frameworks */,
+				8A4706F32653D4DF00D88C9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A4706F72653D4DF00D88C9E /* PBXTargetDependency */,
+			);
+			name = HolofyTests;
+			productName = HolofyTests;
+			productReference = 8A4706F52653D4DF00D88C9E /* HolofyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A4706FF2653D4DF00D88C9E /* HolofyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A47070F2653D4DF00D88C9E /* Build configuration list for PBXNativeTarget "HolofyUITests" */;
+			buildPhases = (
+				D256EE2A232EC3BF66B5C12E /* [CP] Check Pods Manifest.lock */,
+				8A4706FC2653D4DF00D88C9E /* Sources */,
+				8A4706FD2653D4DF00D88C9E /* Frameworks */,
+				8A4706FE2653D4DF00D88C9E /* Resources */,
+				EAD6E241769A9248EA0AACAF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A4707022653D4DF00D88C9E /* PBXTargetDependency */,
+			);
+			name = HolofyUITests;
+			productName = HolofyUITests;
+			productReference = 8A4707002653D4DF00D88C9E /* HolofyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A4706D72653D4DE00D88C9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					8A4706DE2653D4DE00D88C9E = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					8A4706F42653D4DF00D88C9E = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 8A4706DE2653D4DE00D88C9E;
+					};
+					8A4706FF2653D4DF00D88C9E = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 8A4706DE2653D4DE00D88C9E;
+					};
+				};
+			};
+			buildConfigurationList = 8A4706DA2653D4DE00D88C9E /* Build configuration list for PBXProject "Holofy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A4706D62653D4DE00D88C9E;
+			productRefGroup = 8A4706E02653D4DE00D88C9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A4706DE2653D4DE00D88C9E /* Holofy */,
+				8A4706F42653D4DF00D88C9E /* HolofyTests */,
+				8A4706FF2653D4DF00D88C9E /* HolofyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A4706DD2653D4DE00D88C9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ABE907D265596AF009C1F77 /* assignment.json in Resources */,
+				8A4706EC2653D4DF00D88C9E /* Assets.xcassets in Resources */,
+				8A47073F2653D65300D88C9E /* PioListViewController.xib in Resources */,
+				8A47072F2653D64A00D88C9E /* MapViewController.xib in Resources */,
+				8A4707412653D65300D88C9E /* PoListTableViewCell.xib in Resources */,
+				8A4706EF2653D4DF00D88C9E /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A4706F32653D4DF00D88C9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A4706FE2653D4DF00D88C9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AF9F98AF8D7BD46E639F8BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Holofy/Pods-Holofy-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Holofy/Pods-Holofy-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Holofy/Pods-Holofy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		761AD573D32E2FD6AC4BD14D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Holofy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D256EE2A232EC3BF66B5C12E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Holofy-HolofyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAD6E241769A9248EA0AACAF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Holofy-HolofyUITests/Pods-Holofy-HolofyUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Holofy-HolofyUITests/Pods-Holofy-HolofyUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Holofy-HolofyUITests/Pods-Holofy-HolofyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F50189C2BEB5848243FC405B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HolofyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A4706DB2653D4DE00D88C9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A47074C2653D66000D88C9E /* NetworkManager.swift in Sources */,
+				8A4707422653D65300D88C9E /* PioListProtocols.swift in Sources */,
+				8A47072E2653D64A00D88C9E /* MapViewController.swift in Sources */,
+				8A47073E2653D65300D88C9E /* PioListViewController.swift in Sources */,
+				8A4707432653D65300D88C9E /* PioListRouter.swift in Sources */,
+				8A4707402653D65300D88C9E /* PoListTableViewCell.swift in Sources */,
+				8A4706EA2653D4DE00D88C9E /* Holofy.xcdatamodeld in Sources */,
+				8A47072B2653D64A00D88C9E /* MapRouter.swift in Sources */,
+				8A47072C2653D64A00D88C9E /* MapPresenter.swift in Sources */,
+				8A47072D2653D64A00D88C9E /* MapInteractor.swift in Sources */,
+				8A47071E2653D63F00D88C9E /* CommonDesign.swift in Sources */,
+				8A4706E52653D4DE00D88C9E /* RootViewController.swift in Sources */,
+				8A4707462653D65300D88C9E /* PioListInteractor.swift in Sources */,
+				8A4706E32653D4DE00D88C9E /* AppDelegate.swift in Sources */,
+				8A4707452653D65300D88C9E /* MapModel.swift in Sources */,
+				8A47071F2653D63F00D88C9E /* AppNavigationHandler.swift in Sources */,
+				8A4707442653D65300D88C9E /* PioListPresenter.swift in Sources */,
+				8A47071D2653D63F00D88C9E /* Constants.swift in Sources */,
+				8A47072A2653D64A00D88C9E /* MapProtocols.swift in Sources */,
+				8ABE9080265596C3009C1F77 /* Models.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A4706F12653D4DF00D88C9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A4706FA2653D4DF00D88C9E /* HolofyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A4706FC2653D4DF00D88C9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A4707052653D4DF00D88C9E /* HolofyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A4706F72653D4DF00D88C9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A4706DE2653D4DE00D88C9E /* Holofy */;
+			targetProxy = 8A4706F62653D4DF00D88C9E /* PBXContainerItemProxy */;
+		};
+		8A4707022653D4DF00D88C9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A4706DE2653D4DE00D88C9E /* Holofy */;
+			targetProxy = 8A4707012653D4DF00D88C9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A4706ED2653D4DF00D88C9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A4706EE2653D4DF00D88C9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A4707072653D4DF00D88C9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A4707082653D4DF00D88C9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A47070A2653D4DF00D88C9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB328DE824073398297BDB76 /* Pods-Holofy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Holofy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sagar.holofy.Holofy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8A47070B2653D4DF00D88C9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F48FE51A2D98E3E439EEC13 /* Pods-Holofy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Holofy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sagar.holofy.Holofy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8A47070D2653D4DF00D88C9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29707DA908CC744E74133B8A /* Pods-HolofyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HolofyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sagar.holofy.HolofyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Holofy.app/Holofy";
+			};
+			name = Debug;
+		};
+		8A47070E2653D4DF00D88C9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7670E9976EC9124C8AF4F805 /* Pods-HolofyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HolofyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sagar.holofy.HolofyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Holofy.app/Holofy";
+			};
+			name = Release;
+		};
+		8A4707102653D4DF00D88C9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6A99B6DA367DABA98E3DB12 /* Pods-Holofy-HolofyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HolofyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sagar.holofy.HolofyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Holofy;
+			};
+			name = Debug;
+		};
+		8A4707112653D4DF00D88C9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6595076F5F14EBC1C8A3E0DB /* Pods-Holofy-HolofyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HolofyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sagar.holofy.HolofyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Holofy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A4706DA2653D4DE00D88C9E /* Build configuration list for PBXProject "Holofy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A4707072653D4DF00D88C9E /* Debug */,
+				8A4707082653D4DF00D88C9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A4707092653D4DF00D88C9E /* Build configuration list for PBXNativeTarget "Holofy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A47070A2653D4DF00D88C9E /* Debug */,
+				8A47070B2653D4DF00D88C9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A47070C2653D4DF00D88C9E /* Build configuration list for PBXNativeTarget "HolofyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A47070D2653D4DF00D88C9E /* Debug */,
+				8A47070E2653D4DF00D88C9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A47070F2653D4DF00D88C9E /* Build configuration list for PBXNativeTarget "HolofyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A4707102653D4DF00D88C9E /* Debug */,
+				8A4707112653D4DF00D88C9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8A4706E82653D4DE00D88C9E /* Holofy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8A4706E92653D4DE00D88C9E /* Holofy.xcdatamodel */,
+			);
+			currentVersion = 8A4706E92653D4DE00D88C9E /* Holofy.xcdatamodel */;
+			path = Holofy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8A4706D72653D4DE00D88C9E /* Project object */;
+}
