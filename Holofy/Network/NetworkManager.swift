@@ -1,8 +1,8 @@
 //
 //  NetworkManager.swift
-//  TataAIGAssignment
+//  Holofy
 //
-//  Created by Sagar Mahindrakar on 27/04/21.
+//  Created Sagar Mahindrakar on 24/05/21.
 //
 
 import Foundation

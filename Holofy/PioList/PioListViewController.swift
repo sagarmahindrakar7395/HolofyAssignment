@@ -1,8 +1,8 @@
 //
 //  PioListViewController.swift
-//  TataAIGAssignment
+//  Holofy
 //
-//  Created Sagar Mahindrakar on 27/04/21.
+//  Created Sagar Mahindrakar on 24/05/21.
 //  Copyright © 2021 ___ORGANIZATIONNAME___. All rights reserved.
 //
 
@@ -24,7 +24,8 @@ class PioListViewController: UIViewController, PioListViewProtocol {
     func registerCell(){
         tableView.dataSource = self
         tableView.delegate = self
-        tableView.register(UINib(nibName: "PoListTableViewCell", bundle: nil), forCellReuseIdentifier: "PoListTableViewCell")
+        tableView.register(UINib(nibName: Constants.strings.poCellNibName, bundle: nil), forCellReuseIdentifier: Constants.strings.poCellNibName)
+        self.title = Constants.heading.listHeading
     }
     //MARK: To update map -
     func updateMapView(_ cordinates:[Coordinate]?,_ southwestCoordinate:Coordinate){

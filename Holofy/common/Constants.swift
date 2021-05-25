@@ -1,8 +1,8 @@
 //
 //  Constants.swift
-//  TataAIGAssignment
+//  Holofy
 //
-//  Created by Sagar Mahindrakar on 27/04/21.
+//  Created Sagar Mahindrakar on 24/05/21.
 //
 
 import Foundation
@@ -22,10 +22,6 @@ struct Constants
     }
 
     //String URL constants
-    struct stringURL
-    {
-        static let aPIForMapViewData = "https://fake-poi-api.mytaxi.com/?p1Lat=18.910000&p1Lon=72.809998&p2Lat=18.5204&p2Lon=73.8567"
-    }
 
     //Error contsants
     struct errors
